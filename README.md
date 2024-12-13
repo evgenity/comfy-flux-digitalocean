@@ -22,4 +22,15 @@ python3 main.py --listen
 
 ```
 export GRADIO_SERVER_NAME="0.0.0.0"
+git clone https://github.com/cocktailpeanut/fluxgym
+cd fluxgym
+git clone -b sd3 https://github.com/kohya-ss/sd-scripts
+
+cd sd-scripts
+pip install -r requirements.txt
+
+cd ..
+pip install -r requirements.txt
+
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
