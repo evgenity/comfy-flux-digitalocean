@@ -13,4 +13,6 @@ wget -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flu
 wget -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors
 
 wget -O models/checkpoints/v1-5-pruned-emaonly.ckpt https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
+
+python3 main.py --listen
 ```
