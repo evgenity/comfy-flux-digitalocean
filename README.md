@@ -19,3 +19,7 @@ wget -O models/controlnet/FLUX.1/diffusion_pytorch_model.safetensors https://hug
 
 python3 main.py --listen
 ```
+
+```
+export GRADIO_SERVER_NAME="0.0.0.0"
+```
