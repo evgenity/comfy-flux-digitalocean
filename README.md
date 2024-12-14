@@ -20,7 +20,9 @@ wget -O models\controlnet\sdxl\OpenPoseXL2.safetensors https://huggingface.co/th
 wget -O models/upscale_models/4x-ClearRealityV1.pth https://huggingface.co/skbhadra/ClearRealityV1/resolve/main/4x-ClearRealityV1.pth &
 
 mkdir models/controlnet/FLUX.1/ &
-wget -O models/controlnet/FLUX.1/diffusion_pytorch_model.safetensors https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union/resolve/main/diffusion_pytorch_model.safetensors 
+wget -O models/controlnet/FLUX.1/diffusion_pytorch_model.safetensors https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union/resolve/main/diffusion_pytorch_model.safetensors &
+
+wget -O ./models/checkpoints/wildcardx-xl-turbo.safetensors https://civitai.com/api/download/models/329685?token=87b492a24c967ed812dbacc4a323c8bb
 
 python3 main.py --listen
 ```
