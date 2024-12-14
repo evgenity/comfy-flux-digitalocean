@@ -17,7 +17,7 @@ wget -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyano
 
 wget -O models/checkpoints/v1-5-pruned-emaonly.ckpt https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt &
 
-mkdir models\controlnet\sdxl &
+mkdir models/controlnet/sdxl &
 wget -O models/controlnet/sdxl/OpenPoseXL2.safetensors https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors
 
 wget -O models/upscale_models/4x-ClearRealityV1.pth https://huggingface.co/skbhadra/ClearRealityV1/resolve/main/4x-ClearRealityV1.pth &
