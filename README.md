@@ -1,7 +1,7 @@
 # comfy-flux-digitalocean
 
 ```
-cd /home
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt install python3-pip -y
 git clone https://github.com/comfyanonymous/ComfyUI
