@@ -36,6 +36,11 @@ wget -O models/checkpoints/flux1-dev.safetensors https://huggingface.co/black-fo
 ```
 
 ```
+mkdir models/loras/flux
+wget -O ./models/loras/flux/961155.safetensors https://civitai.com/api/download/models/961155?token=87b492a24c967ed812dbacc4a323c8bb
+```
+
+```
 export GRADIO_SERVER_NAME="0.0.0.0"
 git clone https://github.com/cocktailpeanut/fluxgym
 cd fluxgym
