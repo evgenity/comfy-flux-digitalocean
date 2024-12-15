@@ -10,7 +10,11 @@ pip install -r requirements.txt
 
 cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+cd ..
+python3 main.py --listen
+```
 
+```
 wget -O models/vae/ae.safetensors https://huggingface.co/second-state/FLUX.1-schnell-GGUF/resolve/main/ae.safetensors &
 wget -O models/checkpoints/flux1-dev-fp8.safetensors https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors &
 wget -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors &
@@ -27,8 +31,6 @@ mkdir models/controlnet/FLUX.1/ &
 wget -O models/controlnet/FLUX.1/diffusion_pytorch_model.safetensors https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union/resolve/main/diffusion_pytorch_model.safetensors &
 
 wget -O ./models/checkpoints/wildcardx-xl-turbo.safetensors https://civitai.com/api/download/models/329685?token=87b492a24c967ed812dbacc4a323c8bb&
-
-python3 main.py --listen
 ```
 
 ```
