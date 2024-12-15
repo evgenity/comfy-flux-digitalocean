@@ -31,6 +31,8 @@ mkdir models/controlnet/FLUX.1/ &
 wget -O models/controlnet/FLUX.1/diffusion_pytorch_model.safetensors https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union/resolve/main/diffusion_pytorch_model.safetensors &
 
 wget -O ./models/checkpoints/wildcardx-xl-turbo.safetensors https://civitai.com/api/download/models/329685?token=87b492a24c967ed812dbacc4a323c8bb&
+
+wget -O models/checkpoints/flux1-dev.safetensors https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors --header="Authorization: Bearer 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"
 ```
 
 ```
